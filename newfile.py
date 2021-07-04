@@ -38,7 +38,7 @@ def run():
 	elif player_number != pc_number:
 		g.pc_score += 1
 		time.sleep(0.5)
-		print(f"You lose!\nMy number was: {pc_number}\nResults:\nwin: {g.player_score}, lose: {g.pc_score} \nIf you want to exit type '99'")
+		print(f"You lose!\nMy number was {pc_number}\nResults:\nwin: {g.player_score}, lose: {g.pc_score} \nIf you want to exit type '99'")
 		
 g = RunGame()
 while g.game == True:
